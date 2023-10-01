@@ -1,0 +1,56 @@
+body {
+    width: auto;
+    margin: 0 auto;
+    background-color: rgb(200, 200, 200);
+    color: rgb(89, 89, 128);
+    max-width: 1000px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+
+
+.tartalom {
+    
+    width: auto;
+    max-width: 450px;
+}
+
+.keret {
+    width: auto;
+    margin: 0 auto;
+    max-width: 920px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: auto;
+    max-width: 450px;
+    border: 2px solid rgb(89, 89, 128);
+    border-radius: 10%;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    background-color: blueviolet;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: yellow;
+}
+footer{text-align: center;}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap Git/Github gyak</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="palacsinta.css">
+</head>
+<body>
+    <!--külső keret-->
+    <div class="keret">
+        <h1>A legjobb palacsintatészta</h1>
+        <!--belső keret szöveges tartalom-->
+        <div class="row">
+            <div class="col-lg-7 col-md-6 tartalom">
+                    
+                    <h2>Hozzávalók</h2>
+                    <ul>
+                        <li>20 dkg liszt (1 púpos ek = 2 dkg)</li>
+                        <li>2 db tojás</li>
+                        <li>3 dl tej</li>
+                        <li>2 dl szénsavas ásványvíz</li>
+                        <li>1 csipet só</li>
+                        <li>3/4 dl olaj (+ a sütéshez)</li>
+                    </ul>
+                    <h2>Elkészítés</h2>
+                    <ol>
+                        <li>A palacsintatészta hozzávalóit összekeverjük egy tálban, majd pár percig pihentetjük.</li>
+                        <li>Az első palacsinta sütése előtt a forró serpenyőbe egy kevés olajat öntünk (a következő
+                            palacsintáknál erre már nincs szükség, maximálisan elegendő, ami kisül a tésztából).</li>
+                        <li>A palacsintákat egyenként kisütjük, majd ízlés szerinti töltelékkel kínáljuk.</li>
+                    </ol>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                
+                    <img src="palacsinta_teszta.jpg" alt="Palacsinta tészta">
+                
+               
+            </div>
+        </div>
+    </div>
+    <section>
+        <!-- method=get a küldött adatokat az URL-ben látjuk, 
+        method=post háttérben küldi az adatokat, nem látjuk-->
+        <form method="get">
+            <fieldset>
+                <legend>Add meg a véleményedet</legend>
+
+                <label for="user">Felhasználónév: </label>
+                <input type="text" name="user" required /><br><br>
+           
+                <label for="pass">Jelszó: </label>
+                <input type="password" name="pass" ><br><br>
+           
+                <label for="">Mennyire ízlett?</label>
+                <input type="radio" name="jelol"> <label for="1">1</label> 
+                <input type="radio" name="jelol">  <label for="2">2</label>   
+                <input type="radio" name="jelol"> <label for="3">3</label>
+                <input type="radio" name="jelol"> <label for="4">4</label> 
+                <input type="radio" name="jelol">  <label for="5">5</label>
+                <br><br>
+
+                <label>Mennyire volt követhető a leírás?</label>
+                
+            <select >
+                <option>---Válassz!---</option>
+                <option>Könnyű</option>
+                <option>közepes</option>
+                <option>nehéz</option>
+            </select> <br><br>
+       
+                
+                <input type="submit" value="Beküldés" />
+              
+            </fieldset>
+        </form>
+    </section>
+    <HR></HR>
+<footer>
+    <P>Készítette: Palacsinta Király</P>
+    
+    </footer>
+
+</body>
+</html>
